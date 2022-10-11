@@ -6,7 +6,6 @@ import './Home.css'
 
 const Home = () => {
     const quizTopic = useLoaderData().data;
-    console.log(quizTopic)
     return (
         <div className="home container">
             <section className='banner d-flex align-items-center'>
@@ -20,7 +19,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="quiz_container d-flex flex-wrap gap-3">
+            <section className="quiz_container d-flex flex-wrap gap-3 mb-5">
                 {
                     quizTopic.map(quiz => <QuizTopic
                         key={quiz.id}

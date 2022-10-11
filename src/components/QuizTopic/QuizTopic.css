@@ -3,10 +3,14 @@
     background: linear-gradient(45deg , #ececec, #f6f0fd, #ececec);
     border: none;
 }
-.card-body button {
+.card-body a {
     background-color: #6B3DA3;
     color: #fff;
     font-weight: bold;
     display: block;
     width: 100%;
+}
+.card-body a:hover {
+    background-color: #523970;
+    color: #fff;
 }
