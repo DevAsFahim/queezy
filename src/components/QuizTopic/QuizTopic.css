@@ -1,0 +1,12 @@
+.card {
+    background-color: #6b3da31a;
+    background: linear-gradient(45deg , #ececec, #f6f0fd, #ececec);
+    border: none;
+}
+.card-body button {
+    background-color: #6B3DA3;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}
