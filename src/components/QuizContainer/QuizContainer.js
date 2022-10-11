@@ -1,9 +1,15 @@
 import React from 'react';
 
 const QuizContainer = ({quizData}) => {
+    function createMarkup(c) {
+        return {__html: c};
+    }
+      
     return (
         <div>
-            <h3>{quizData.question.slice(3, -4)}</h3>
+            <h3><div dangerouslySetInnerHTML={createMarkup(quizData.question)} /></h3>
+            
+
         </div>
     );
 };
