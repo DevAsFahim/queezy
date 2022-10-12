@@ -1,7 +1,7 @@
 # Queezy
 
 **Live website link**
-[Visit website](https://teal-trifle-a688d0.netlify.app/)
+[https://teal-trifle-a688d0.netlify.app/](https://teal-trifle-a688d0.netlify.app/)
 
 This project is created using `react.js` and `bootstrap` as a framework.
 * What's on this site
