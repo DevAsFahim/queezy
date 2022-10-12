@@ -5,8 +5,6 @@ import './Statistics.css';
 
 const Statistics = () => {
     const quizTopic = useLoaderData().data;
-
-    console.log(quizTopic);
     return (
         <div className='statistics-container container'>
             <table>
