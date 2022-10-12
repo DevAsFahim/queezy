@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# Queezy
+
+**Live website link**
+[Visit website](https://teal-trifle-a688d0.netlify.app/)
+
+This project is created using `react.js` and `bootstrap` as a framework.
+* What's on this site
+    * It's a programming related quiz website.
+    * `React-router` used in here.
+    * Icons used in this site from `heroicon.com`
+    * Loaded data from API.
+    * Used `loader` from react-router to get data.
+    * Fully functional website with right and wrong answer shown react toast.
+    * There is a statistic area also
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
