@@ -20,6 +20,7 @@ const Home = () => {
             </section>
 
             <section className="quiz_container d-flex flex-wrap gap-3 mb-5">
+                <h2>Choose Your Quiz Topic</h2>
                 {
                     quizTopic.map(quiz => <QuizTopic
                         key={quiz.id}
