@@ -5,3 +5,24 @@
     color: #6B3DA3;
     margin-bottom: 30px;
 }
+.quiz_main_container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.quiz_main_container .answer_counter {
+    background: linear-gradient(45deg , #ececec, #f6f0fd, #ececec);
+    padding: 30px 20px;
+    border-radius: 10px;
+    flex-basis: 25%;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 991px) {
+    .quiz_main_container .answer_counter {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+}

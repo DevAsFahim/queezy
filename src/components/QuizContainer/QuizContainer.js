@@ -4,18 +4,19 @@ import './QuizContainer.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const QuizContainer = ({quizData}) => {
+const QuizContainer = ({ quizData, ansCounter }) => {
     function createMarkup(c) {
-        return {__html: c};
+        return { __html: c };
     }
     const selected = (data) => {
-        data === quizData.correctAnswer ? toast.success('Wow! You are right') : toast.error('Oops! Answer is not correct')
+        data === quizData.correctAnswer ? toast.success('Wow! You are right') : toast.error('Oops! Answer is not correct');
+        ansCounter(data, quizData.correctAnswer)
     }
     const showAns = () => toast.success(`Answer is:  ${quizData.correctAnswer}`)
-    
+
     return (
         <div className='quiz_wrapper'>
-            <EyeIcon onClick={showAns} className="eye"/>
+            <EyeIcon onClick={showAns} className="eye" />
             <h5 className='mb-4'><div dangerouslySetInnerHTML={createMarkup(quizData.question)} /></h5>
             <div className="options">
                 {

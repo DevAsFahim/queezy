@@ -1,6 +1,7 @@
 .card {
     background: linear-gradient(45deg , #ececec, #f6f0fd, #ececec);
     border: none;
+    width: 48%;
 }
 .card-body a {
     background-color: #6B3DA3;
@@ -12,4 +13,9 @@
 .card-body a:hover {
     background-color: #523970;
     color: #fff;
+}
+@media screen and (max-width: 425px) {
+    .card {
+        width: 100%;
+    }
 }
