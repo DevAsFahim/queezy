@@ -1,4 +1,16 @@
+.navbar {
+    background: linear-gradient(45deg , #ececec, #f6f0fd, #ececec);
+}
 .navbar-brand {
     color:  #6B3DA3;
     font-weight: bold;
+}
+.activeLink {
+    color: #221236 !important;
+}
+.nav-item a {
+    color: #7333c0;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 10px;
 }
