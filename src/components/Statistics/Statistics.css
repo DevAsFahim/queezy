@@ -1,0 +1,21 @@
+.statistics-container {
+    max-width: 500px;
+    padding: 40px 20px;
+    background: linear-gradient(45deg , #ececec, #f6f0fd, #ececec);
+    border-radius: 10px;
+    margin-top: 60px;
+}
+.statistics-container table {
+    width: 100%;
+}
+.statistics-container table th {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.statistics-container table td {
+    padding: 5px 10px;
+    border: 1px solid rgb(235, 224, 224);
+}
+.statistics-container table img{
+    width: 40px;
+}

@@ -10,8 +10,6 @@ const QuizContainer = ({quizData}) => {
     }
     const selected = (data) => {
         data === quizData.correctAnswer ? toast.success('Wow! You are right') : toast.error('Oops! Answer is not correct')
-        
-        console.log(data);
     }
     const showAns = () => toast.success(`Answer is:  ${quizData.correctAnswer}`)
     
